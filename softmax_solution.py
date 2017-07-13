@@ -1,3 +1,7 @@
+#imports for 
+import matplotlib
+matplotlib.use('TkAgg')
+
 import numpy as np
 
 def softmax(x):
